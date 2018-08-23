@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/fresco_sheji"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:placeholderImage="@mipmap/ic_launcher"
+        app:placeholderImageScaleType="centerCrop"
+        app:failureImage="@mipmap/ic_launcher"
+        app:failureImageScaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/sheji_text"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:text="设计师"
+        />
+
+</LinearLayout>
